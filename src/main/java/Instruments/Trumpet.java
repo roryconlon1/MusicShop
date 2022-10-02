@@ -9,11 +9,4 @@ public class Trumpet extends MusicInstrument{
         this.numberOfValves = numberOfValves;
     }
 
-    public Integer getNumberOfValves() {
-        return numberOfValves;
-    }
-
-    public void setNumberOfValves(Integer numberOfValves) {
-        this.numberOfValves = numberOfValves;
-    }
 }

@@ -16,36 +16,8 @@ public class DrumSticks  implements ISell {
         this.numberInSet = numberInSet;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getBuyingPrice() {
-        return buyingPrice;
-    }
-
-    public void setBuyingPrice(int buyingPrice) {
-        this.buyingPrice = buyingPrice;
-    }
-
-    public int getSellingCost() {
-        return sellingCost;
-    }
-
-    public void setSellingCost(int sellingCost) {
-        this.sellingCost = sellingCost;
-    }
-
     public int getNumberInSet() {
         return numberInSet;
-    }
-
-    public void setNumberInSet(int numberInSet) {
-        this.numberInSet = numberInSet;
     }
 
     public int markUp(){

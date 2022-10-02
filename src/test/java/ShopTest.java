@@ -53,6 +53,11 @@ public class ShopTest {
     }
 
     @Test
+    public void canGetMarkup(){
+        assertEquals(200, guitar.markUp());
+    }
+
+    @Test
     public void calculateProfit(){
         shop.addItem(guitar);
         shop.addItem(drumSticks);
@@ -60,10 +65,5 @@ public class ShopTest {
         shop.addItem(trumpet);
         shop.addItem(plectrum);
         assertEquals(487, shop.findProfit());
-    }
-
-    @Test
-    public void canGetMarkup(){
-        assertEquals(200, guitar.markUp());
     }
 }

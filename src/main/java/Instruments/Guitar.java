@@ -2,7 +2,7 @@ package Instruments;
 
 public class Guitar extends MusicInstrument{
 
-    private String guitarType;
+    private final String guitarType;
     private int numberOfStrings;
 
     public Guitar(String name, Integer buyingPrice, Integer sellingCost, InstrumentType instrumentType, String guitarType, int numberOfStrings) {
@@ -15,15 +15,4 @@ public class Guitar extends MusicInstrument{
         return guitarType;
     }
 
-    public void setGuitarType(String guitarType) {
-        this.guitarType = guitarType;
-    }
-
-    public int getNumberOfStrings() {
-        return numberOfStrings;
-    }
-
-    public void setNumberOfStrings(int numberOfStrings) {
-        this.numberOfStrings = numberOfStrings;
-    }
 }

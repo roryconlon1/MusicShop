@@ -11,19 +11,4 @@ public class Piano extends MusicInstrument {
         this.pianoType = pianoType;
     }
 
-    public Integer getNumberOfKeys() {
-        return numberOfKeys;
-    }
-
-    public void setNumberOfKeys(Integer numberOfKeys) {
-        this.numberOfKeys = numberOfKeys;
-    }
-
-    public String getPianoType() {
-        return pianoType;
-    }
-
-    public void setPianoType(String pianoType) {
-        this.pianoType = pianoType;
-    }
 }

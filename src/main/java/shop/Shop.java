@@ -1,7 +1,5 @@
 package shop;
 
-import Instruments.InstrumentType;
-import Instruments.MusicInstrument;
 import behaviours.ISell;
 
 import java.util.ArrayList;
@@ -13,27 +11,15 @@ public class Shop {
 
     public Shop(String name) {
         this.name = name;
-        this.stock = new ArrayList<ISell>();
+        this.stock = new ArrayList<>();
     }
 
     public void addItem(ISell item){
         stock.add(item);
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public ArrayList<ISell> getStock() {
         return stock;
-    }
-
-    public void setStock(ArrayList<ISell> stock) {
-        this.stock = stock;
     }
 
     public int itemsInStock(){
